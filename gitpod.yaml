@@ -17,3 +17,13 @@ vscode:
     - 42Crunch.vscode-openapi
     - cweijan.vscode-mysql-client2
 
+image: node:16-alpine
+
+ports:
+  - "3000:3000"
+
+vscode:
+  extensions:
+    - vscode.testrunner
+    - vscode.eslint
+
